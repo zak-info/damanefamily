@@ -44,7 +44,7 @@ interface AllocationResult {
   unallocated: ProcessedGroup[];
 }
 
-const page: React.FC = () => {
+const Page: React.FC = () => {
   const [rooms, setRooms] = useState<RoomCapacities>({
     capacity6: 0,
     capacity5: 0,
@@ -466,4 +466,4 @@ const page: React.FC = () => {
   );
 };
 
-export default page;
+export default Page;
